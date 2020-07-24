@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="chat_url_action" model="ir.actions.act_url">
+            <field name="name">Chat</field>
+            <field name="target">self</field>
+            <field name="url">/chat</field>
+        </record>
+
+        <menuitem action="chat_url_action"
+                  name="Chat"
+                  id="menu_chat_url"
+                  sequence="2"/>
+    </data>
+</odoo>
