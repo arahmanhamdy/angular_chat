@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-        <record id="chat_url_action" model="ir.actions.act_url">
-            <field name="name">Chat</field>
-            <field name="target">self</field>
-            <field name="url">/chat</field>
+
+        <record id="action_main_chat" model="ir.actions.client">
+            <field name="tag">angular_chat.mainpage</field>
         </record>
 
-        <menuitem action="chat_url_action"
-                  name="Chat"
-                  id="menu_chat_url"
-                  sequence="2"/>
+        <menuitem id="menu_chat" name="Chat" action="action_main_chat"/>
     </data>
 </odoo>

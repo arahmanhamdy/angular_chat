@@ -2,8 +2,11 @@
     "name": "Angular Chat ",
     "author": "Abdulrahman Hamdy",
     "website": "https://linedin.com/in/arahmanhamdy",
+    'qweb': [
+        "static/src/xml/chat.xml",
+    ],
     "data": [
-        "views/main_page_templates.xml",
+        "views/chat_templates.xml",
         "views/chat_views.xml"
     ]
 }

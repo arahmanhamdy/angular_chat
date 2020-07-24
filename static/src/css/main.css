@@ -1,3 +1,5 @@
-p {
+.mychat {
     color: red;
+    display: block;
+    margin: auto;
 }

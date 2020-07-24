@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="ChatPageTemplate">
+        <button class="mychat">Click here to alert hello</button>
+        <script type="text/javascript" src="/angular_chat/static/src/js/mychat.js"/>
+    </t>
+</templates>
